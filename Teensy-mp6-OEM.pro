@@ -1,4 +1,4 @@
-update=Friday, May 19, 2017 'pmt' 02:46:09 pm
+update=2017-05-24 4:24:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,8 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/Josh/Documents/kicad___wheelerlab_library-master/wheelerlab
-LibName31=mp6-oem
-LibName32=/Users/Josh/Documents/teensy_library-master/teensy
-[general]
-version=1
+LibName30=mp6-oem
+LibName31=library/wheelerlab

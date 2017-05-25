@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name Connectors_Molex)(type KiCad)(uri /Users/Josh/Documents/Connectors_Molex.pretty-master)(options "")(descr ""))
-  (lib (name WheelerLab)(type KiCad)(uri /Users/Josh/Documents/kicad___wheelerlab_library-master/WheelerLab.pretty)(options "")(descr ""))
   (lib (name mp6-pump-footprint)(type KiCad)(uri "$(KIPRJMOD)/mp6-pump-footprint.pretty")(options "")(descr ""))
+  (lib (name WheelerLab)(type KiCad)(uri "$(KIPRJMOD)\\library\\WheelerLab.pretty")(options "")(descr ""))
 )
