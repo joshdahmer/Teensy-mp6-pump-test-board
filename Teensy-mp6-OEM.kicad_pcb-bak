@@ -3,7 +3,7 @@
   (general
     (links 11)
     (no_connects 0)
-    (area 129.464999 92.634999 194.385001 117.550001)
+    (area 129.464999 88.024761 194.385001 119.533333)
     (thickness 1.6)
     (drawings 5)
     (tracks 53)
@@ -69,7 +69,7 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory teensy-mp6-oem-gerber/))
   )
 
   (net 0 "")
