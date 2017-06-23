@@ -150,14 +150,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 1550 5150 1550
 Wire Wire Line
-	5150 1550 5150 550 
-Wire Wire Line
-	5150 550  2250 550 
-Wire Wire Line
-	2250 550  2250 3200
-Wire Wire Line
-	2250 3200 2600 3200
-Wire Wire Line
 	6300 4100 6900 4100
 Wire Wire Line
 	5200 4100 5850 4100
@@ -184,18 +176,11 @@ NoConn ~ 4600 2300
 NoConn ~ 4600 2450
 NoConn ~ 4600 2600
 NoConn ~ 4600 2750
-NoConn ~ 4600 3200
-NoConn ~ 4600 3350
-NoConn ~ 2600 3350
 NoConn ~ 2600 3050
 NoConn ~ 2600 2900
 NoConn ~ 2600 2750
-NoConn ~ 2600 2600
-NoConn ~ 2600 2450
-NoConn ~ 2600 2300
 NoConn ~ 2600 2150
 NoConn ~ 2600 2000
-NoConn ~ 2600 1850
 NoConn ~ 2600 1700
 NoConn ~ 2600 1550
 NoConn ~ 5250 3150
@@ -203,7 +188,6 @@ NoConn ~ 3800 3900
 NoConn ~ 6800 3150
 Wire Wire Line
 	3650 4050 3900 4050
-NoConn ~ 2600 1400
 Wire Wire Line
 	3350 3900 3350 3950
 Wire Wire Line
@@ -219,11 +203,6 @@ F 3 "" H 3700 1600 60  0000 C CNN
 	1    3600 2150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4600 1700
-Text GLabel 4850 3900 1    60   Input ~ 0
-Amplitude
-Text GLabel 3200 3950 3    60   Input ~ 0
-Amplitude
 Wire Wire Line
 	6800 2550 6800 2700
 Wire Wire Line
@@ -244,4 +223,70 @@ Wire Wire Line
 	6800 3450 6800 3950
 Wire Wire Line
 	6800 3950 6200 3950
+$Comp
+L GND #PWR05
+U 1 1 59429842
+P 3200 3950
+F 0 "#PWR05" H 3200 3700 50  0001 C CNN
+F 1 "GND" H 3200 3800 50  0000 C CNN
+F 2 "" H 3200 3950 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+	1    3200 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_02X05 J2
+U 1 1 594D40B4
+P 3675 5125
+F 0 "J2" H 3675 5425 50  0000 C CNN
+F 1 "CONN_02X05" H 3675 4825 50  0000 C CNN
+F 2 "Connectors:he10-10d" H 3675 3925 50  0001 C CNN
+F 3 "" H 3675 3925 50  0001 C CNN
+	1    3675 5125
+	1    0    0    -1  
+$EndComp
+Text GLabel 3425 4925 0    60   Input ~ 0
++3.3V
+Text GLabel 3425 5025 0    60   Input ~ 0
+GND
+Text GLabel 3425 5125 0    60   Input ~ 0
+CS_POT
+Text GLabel 3425 5225 0    60   Input ~ 0
+CS_ADC
+Text GLabel 3425 5325 0    60   Input ~ 0
+DOUT
+Text GLabel 3925 4925 2    60   Input ~ 0
+MONITOR
+Text GLabel 3925 5025 2    60   Input ~ 0
++5V(VUSB)
+Text GLabel 3925 5125 2    60   Input ~ 0
+DIN
+Text GLabel 3925 5225 2    60   Input ~ 0
+SCK
+Text GLabel 3925 5325 2    60   Input ~ 0
+SHUTTER
+Text GLabel 2600 3200 0    60   Input ~ 0
+DOUT
+Text GLabel 2600 3350 0    60   Input ~ 0
+DIN
+Text GLabel 4600 1700 2    60   Input ~ 0
++3.3V
+Text GLabel 2600 1400 0    60   Input ~ 0
+GND
+Text GLabel 2600 2300 0    60   Input ~ 0
+CS_POT
+Text GLabel 2600 2450 0    60   Input ~ 0
+CS_ADC
+Text GLabel 2600 1850 0    60   Input ~ 0
+SHUTTER
+Text GLabel 4600 3200 2    60   Input ~ 0
+MONITOR
+Text GLabel 4600 1250 2    60   Input ~ 0
++5V(VUSB)
+Text GLabel 4600 3350 2    60   Input ~ 0
+SCK
+Text GLabel 5150 1550 0    60   Input ~ 0
+FREQ_PIN
+Text GLabel 2600 2600 0    60   Input ~ 0
+FREQ_PIN
 $EndSCHEMATC
