@@ -251,19 +251,19 @@ Text GLabel 3425 5025 0    60   Input ~ 0
 GND
 Text GLabel 3425 5125 0    60   Input ~ 0
 CS_POT
-Text GLabel 3425 5225 0    60   Input ~ 0
+Text GLabel 3925 5125 2    60   Input ~ 0
 CS_ADC
-Text GLabel 3425 5325 0    60   Input ~ 0
+Text GLabel 3425 5225 0    60   Input ~ 0
 DOUT
 Text GLabel 3925 4925 2    60   Input ~ 0
 MONITOR
 Text GLabel 3975 5025 2    60   Input ~ 0
 +5V(VUSB)
-Text GLabel 3925 5125 2    60   Input ~ 0
-DIN
 Text GLabel 3925 5225 2    60   Input ~ 0
-SCK
+DIN
 Text GLabel 3925 5325 2    60   Input ~ 0
+SCK
+Text GLabel 3425 5325 0    60   Input ~ 0
 SHUTTER
 Text GLabel 2600 3200 0    60   Input ~ 0
 DOUT

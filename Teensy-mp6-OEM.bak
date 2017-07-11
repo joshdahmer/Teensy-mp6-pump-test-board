@@ -257,7 +257,7 @@ Text GLabel 3425 5325 0    60   Input ~ 0
 DOUT
 Text GLabel 3925 4925 2    60   Input ~ 0
 MONITOR
-Text GLabel 3925 5025 2    60   Input ~ 0
+Text GLabel 3975 5025 2    60   Input ~ 0
 +5V(VUSB)
 Text GLabel 3925 5125 2    60   Input ~ 0
 DIN
@@ -281,7 +281,7 @@ Text GLabel 2600 1850 0    60   Input ~ 0
 SHUTTER
 Text GLabel 4600 3200 2    60   Input ~ 0
 MONITOR
-Text GLabel 4600 1250 2    60   Input ~ 0
+Text GLabel 4650 1250 2    60   Input ~ 0
 +5V(VUSB)
 Text GLabel 4600 3350 2    60   Input ~ 0
 SCK
@@ -289,4 +289,8 @@ Text GLabel 5150 1550 0    60   Input ~ 0
 FREQ_PIN
 Text GLabel 2600 2600 0    60   Input ~ 0
 FREQ_PIN
+Wire Wire Line
+	4600 1250 4650 1250
+Wire Wire Line
+	3925 5025 3975 5025
 $EndSCHEMATC
